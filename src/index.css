@@ -1,0 +1,152 @@
+:root {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1f1a17;
+  background: #f6f1e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f1e8;
+  color: #1f1a17;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #fbf8f2;
+  min-height: 100vh;
+  border-left: 1px solid #e7ddcf;
+  border-right: 1px solid #e7ddcf;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.hero,
+.details,
+.text-section,
+.card {
+  padding: 24px;
+  border-bottom: 1px solid #eadfce;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #7a6957;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  margin: 0 0 16px;
+}
+
+.hero p,
+.text-section p,
+.card p,
+.details p,
+.details h2,
+ol {
+  color: #54473b;
+  line-height: 1.7;
+}
+
+.video-card {
+  background: #fbf8f2;
+}
+
+.video-placeholder {
+  background: #efe6d8;
+  border: 1px solid #dccdb7;
+  border-radius: 20px;
+  padding: 32px 24px;
+  text-align: center;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-placeholder h2 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.detail-group {
+  margin-bottom: 18px;
+}
+
+.detail-group span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a7764;
+  margin-bottom: 6px;
+}
+
+.detail-group h2 {
+  margin: 0;
+  font-size: 34px;
+  color: #1f1a17;
+}
+
+.detail-group p {
+  margin: 0;
+  font-size: 22px;
+}
+
+.workshop-card {
+  background: #fbf8f2;
+}
+
+.workshop-card > div,
+.workshop-card h2,
+.workshop-card p {
+  margin-bottom: 14px;
+}
+
+.button-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary-button,
+.secondary-button {
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: #1f1a17;
+  color: white;
+  border: none;
+}
+
+.secondary-button {
+  background: transparent;
+  border: 1px solid #cdbba3;
+  color: #1f1a17;
+}
+
+ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
