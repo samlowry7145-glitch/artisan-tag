@@ -4,21 +4,21 @@ export default function App() {
       <div className="container">
         <section className="hero">
           <div className="eyebrow">Handmade in Pakistan</div>
-          <h1>See this piece being made.</h1>
+          <h1>See your piece being made.</h1>
           <p>
-            A digital layer for artisan products that brings the maker, the
-            process, and the story closer to the customer.
+            Watch as Ahmed paints 
+            this Multani pottery and discover more about the piece below. 
           </p>
         </section>
-
         <section className="card video-card">
-          <div className="video-placeholder">
-            <div className="eyebrow">Video Placeholder</div>
-            <h2>Watch the stitch, brushstroke, or handwork that made this piece.</h2>
-            <p>Replace this area with a real video later.</p>
-          </div>
+          <iframe 
+  width="100%" 
+  height="300" 
+  src="https://www.youtube.com/embed/Z4voCQ5EEds?si=9IEjsfFBDHnpAOv0" 
+  frameBorder="0" 
+  allowFullScreen>
+</iframe>
         </section>
-
         <section className="details">
           <div className="eyebrow">Piece Details</div>
           <div className="detail-group">
@@ -27,11 +27,11 @@ export default function App() {
           </div>
           <div className="detail-group">
             <span>Made by</span>
-            <p>Ayesha Khan</p>
+            <p>Ahmed Raza</p>
           </div>
           <div className="detail-group">
             <span>Technique</span>
-            <p>Hand embroidery</p>
+            <p>Kashigari</p>
           </div>
           <div className="detail-group">
             <span>Hours Worked</span>
@@ -39,23 +39,23 @@ export default function App() {
           </div>
           <div className="detail-group">
             <span>Origin</span>
-            <p>Lahore, Pakistan</p>
+            <p>Multan, Pakistan</p>
           </div>
         </section>
 
         <section className="text-section">
           <div className="eyebrow">Why it matters</div>
           <p>
-            Instead of relying on a generic certification, this product uses
-            direct access to process and maker identity to build trust.
+            We connect each piece directly with the artisan who made it
+            so you can feel closer to the creator and thier craft.
           </p>
         </section>
 
         <section className="card workshop-card">
-          <div className="eyebrow">Join a live session</div>
+          <div className="eyebrow">Join a live workshop session</div>
           <h2>May 12 · 9:00 AM EST</h2>
           <p>
-            A live virtual demonstration with the artisan, including Q&amp;A
+            Join us for a live demonstration with the artisan, including Q&amp;A
             about technique, process, and material choices.
           </p>
           <div className="button-row">
@@ -67,10 +67,11 @@ export default function App() {
         <section className="text-section">
           <div className="eyebrow">How this works</div>
           <ol>
-            <li>Customer discovers the object in-store or online.</li>
-            <li>They scan the tag and see the actual making process.</li>
-            <li>They learn who made it and how long it took.</li>
-            <li>They can join a live session and build trust through experience.</li>
+            <li>You discover the piece in-store or online.</li>
+            <li>You scan the tag and watch the artisan creating that exact piece.</li>
+            <li>You learn who made it and how long it took to create.</li>
+            <li>You join a live session and go even deeper, learning about material, technique, and history.</li>
+            <li>You connect deeply with the piece and directly support the artisan who crafted it. </li>
           </ol>
         </section>
       </div>
